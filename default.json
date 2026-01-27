@@ -11,6 +11,10 @@
   "enabledManagers": ["composer"],
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "matchPackageNames": ["/^craftcms\//"],
       "matchUpdateTypes": ["major"],
       "enabled": false
