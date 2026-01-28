@@ -21,7 +21,7 @@
     {
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "Composer Minor/Patch Versions",
+      "groupName": "Composer minor and patch versions",
       "groupSlug": "composer-minor-patch",
       "enabled": true
     }
