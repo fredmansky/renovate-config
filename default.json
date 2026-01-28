@@ -16,6 +16,10 @@
     },
     {
       "matchManagers": ["composer"],
+      "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Composer Minor/Patch Updates",
       "groupSlug": "composer-minor-patch",
