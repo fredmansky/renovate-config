@@ -15,7 +15,7 @@
       "enabled": false
     },
     {
-      "matchManagers": ["composer"],
+      "matchUpdateTypes": ["minor"],
       "minimumReleaseAge": "1 day"
     },
     {
