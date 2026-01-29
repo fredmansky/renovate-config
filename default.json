@@ -15,10 +15,6 @@
       "enabled": false
     },
     {
-      "matchUpdateTypes": ["minor"],
-      "minimumReleaseAge": "1 day"
-    },
-    {
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Composer minor and patch versions",
