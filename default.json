@@ -12,13 +12,15 @@
   "dependencyDashboardApproval": true,
   "packageRules": [
     {
+      "matchManagers": ["composer"],
+      "matchPackageNames": ["craftcms/*"],
+      "dependencyDashboardApproval": false
+    },
+    {
       "groupName": "Update Craft packages",
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
-      "matchSourceUrls": [
-        "https://github.com/craftcms/**"
-      ],
-      "dependencyDashboardApproval": false
+      "matchPackageNames": ["craftcms/*"]
     }
   ]
 }
