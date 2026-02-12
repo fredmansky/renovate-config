@@ -17,7 +17,7 @@
       "dependencyDashboardApproval": false
     },
     {
-      "groupName": "Update Craft packages",
+      "groupName": "Craft packages",
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackageNames": ["craftcms/*"]
