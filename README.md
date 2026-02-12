@@ -21,6 +21,10 @@
 }
 ```
 
+## Development
+
+* [Package Rules Guide](https://docs.renovatebot.com/package-rules/)
+
 [1]: https://docs.renovatebot.com/
 [2]: https://github.com/apps/renovate
 [3]: https://docs.github.com/en/code-security/concepts/supply-chain-security/about-dependabot-alerts
