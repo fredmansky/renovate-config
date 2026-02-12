@@ -23,7 +23,8 @@
 
 ## Development
 
-* [Package Rules Guide](https://docs.renovatebot.com/package-rules/)
+* [Mend Developer Portal](https://developer.mend.io/)
+* [Package Rules Guide](https://docs.mend.io/wsk/renovate-package-rules-guide)
 
 [1]: https://docs.renovatebot.com/
 [2]: https://github.com/apps/renovate
