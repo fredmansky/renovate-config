@@ -11,14 +11,20 @@
   "enabledManagers": ["composer"],
   "packageRules": [
     {
+      "matchManagers": ["composer"],
+      "enabled": false
+    },
+    {
       "matchUpdateTypes": ["major"],
       "enabled": false
     },
     {
+      "groupName": "Update Craft packages",
       "matchManagers": ["composer"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "Composer minor and patch versions",
-      "groupSlug": "composer-minor-patch",
+      "matchSourceUrls": [
+        "https://github.com/craftcms/**"
+      ],
       "enabled": true
     }
   ]
