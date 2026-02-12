@@ -9,15 +9,8 @@
     "workarounds:all"
   ],
   "enabledManagers": ["composer"],
+  "dependencyDashboardApproval": true,
   "packageRules": [
-    {
-      "matchManagers": ["composer"],
-      "enabled": false
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "enabled": false
-    },
     {
       "groupName": "Update Craft packages",
       "matchManagers": ["composer"],
@@ -25,7 +18,7 @@
       "matchSourceUrls": [
         "https://github.com/craftcms/**"
       ],
-      "enabled": true
+      "dependencyDashboardApproval": false
     }
   ]
 }
