@@ -10,6 +10,9 @@
   ],
   "enabledManagers": ["composer"],
   "dependencyDashboardApproval": true,
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
   "packageRules": [
     {
       "matchManagers": ["composer"],
