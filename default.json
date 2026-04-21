@@ -8,6 +8,7 @@
     "replacements:all",
     "workarounds:all"
   ],
+  "enabled": false,
   "enabledManagers": ["composer"],
   "dependencyDashboardApproval": true,
   "vulnerabilityAlerts": {
