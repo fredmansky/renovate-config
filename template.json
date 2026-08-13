@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":dependencyDashboard",
+    ":ignoreModulesAndTests",
+    "group:monorepos",
+    "group:recommended",
+    "replacements:all",
+    "workarounds:all"
+  ],
+  "dependencyDashboard": true,
+  "assigneesFromCodeOwners": true,
+  "reviewersFromCodeOwners": true,
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "postUpdateOptions": ["npmDedupe"],
+  "minimumReleaseAge": "24 hours",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "automerge": false,
+    "labels": ["security"]
+  }
+}
